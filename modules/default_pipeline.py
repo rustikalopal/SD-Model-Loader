@@ -259,8 +259,8 @@ refresh_everything(
     base_model_name=modules.path.default_base_model_name,
     loras=[
         (modules.path.default_lora_name, modules.path.default_lora_weight),
-        ('None', modules.path.default_lora_weight),
-        ('None', modules.path.default_lora_weight),
+        ('SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors', 0.4),
+        ('NSFW_POV_AllInOne_LORA_SDXL.safetensors', 0.5),
         ('None', modules.path.default_lora_weight),
         ('None', modules.path.default_lora_weight)
     ]
